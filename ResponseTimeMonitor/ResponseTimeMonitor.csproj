@@ -51,6 +51,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="dev.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
     <None Include="local.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
