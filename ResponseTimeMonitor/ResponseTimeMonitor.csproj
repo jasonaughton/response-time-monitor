@@ -54,6 +54,9 @@
     <None Include="dev.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="stg.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
     <None Include="local.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

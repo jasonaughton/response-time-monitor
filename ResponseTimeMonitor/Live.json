@@ -1,10 +1,17 @@
 ﻿{
 	"Urls": 
 		[
-			"http://www.carmagazine.co.uk",
-			"http://www.carmagazine.co.uk/car-reviews/volkswagen/vw-golf-gtd-estate-2015-review/",
-			"http://www.carmagazine.co.uk/car-news/motor-shows-events/shanghai/2015/shanghai-special-new-vw-scirocco-gts-to-debut-in-china/",
-			"http://www.carmagazine.co.uk/car-reviews/comparison/2015/land-rover-discovery-sport-vs-audi-q5-vs-jeep-cherokee-vs-range-rover-evoque-2015-group-test/",
-			"http://www.carmagazine.co.uk/car-news/motoring-issues/2015/budget-2015-how-it-affects-uk-motorists/"
+			"http://www.stg.carmagazine.co.uk",
+			"http://www.stg.carmagazine.co.uk/car-reviews/vauxhall/vauxhall-adam-grand-slam-2015-review/",
+			"http://www.stg.carmagazine.co.uk/car-news/motor-shows-events/other-events/2014/the-los-angeles-motor-show-2014-review/",
+			"http://www.stg.carmagazine.co.uk/car-reviews/comparison/2014/audi-rs7-vs-bmw-m5-vs-jaguar-xfr-s-vs-mercedes-e63-amg-s-2014-review/",
+			"http://www.stg.carmagazine.co.uk/car-news/motoring-issues/2015/rowan-atkinsons-mclaren-f1-from-twice-crashed-mess-to-8m-icon/",
+			"http://www.stg.carmagazine.co.uk/car-manufacturers/",
+			"http://www.stg.carmagazine.co.uk/car-reviews/",
+			"http://www.stg.carmagazine.co.uk/car-reviews/bmw/",
+			"http://www.stg.carmagazine.co.uk/car-reviews/bmw/5-series/",
+			"http://www.stg.carmagazine.co.uk/features/",
+			"http://www.stg.carmagazine.co.uk/features/?page=1&rpp=72",
+			"http://www.stg.carmagazine.co.uk/features/?page=1&rpp=108"
 		]	
 }
