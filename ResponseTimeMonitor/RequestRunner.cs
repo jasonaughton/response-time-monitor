@@ -28,7 +28,7 @@ namespace ResponseTimeMonitor
         /// <summary>
         /// The requests per URL
         /// </summary>
-        private const int RequestsPerUrl = 50;
+        private const int RequestsPerUrl = 10;
 
         #endregion
 
@@ -125,9 +125,16 @@ namespace ResponseTimeMonitor
         /// </summary>
         private void RunRequests()
         {
-            Parallel.ForEach(
-                this.requestUrls,
-                this.ExecuteRequest);
+            //Console.WriteLine("Parallel");
+            //Parallel.ForEach(
+            //    this.requestUrls,
+            //    this.ExecuteRequest);
+
+            Console.WriteLine("Serial");
+            foreach (var url in this.requestUrls)
+            {
+                this.ExecuteRequest(url);
+            }
         }
 
         /// <summary>
@@ -140,8 +147,7 @@ namespace ResponseTimeMonitor
             {
                 using (WebClient client = new WebClient())
                 {
-                    Stopwatch timer = new Stopwatch();
-                    timer.Start();
+                    Stopwatch timer = Stopwatch.StartNew();
                     client.DownloadData(url);
                     timer.Stop();
                     Console.WriteLine(url + ": " + timer.ElapsedMilliseconds);
