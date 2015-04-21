@@ -75,7 +75,7 @@ namespace ResponseTimeMonitor
         private void WriteResults()
         {
             IOrderedEnumerable<KeyValuePair<string, long>> sortedResults = this.responseTimes.OrderBy(item => item.Key);;
-            string fileName = "result-" + Guid.NewGuid() + ".csv";
+            string fileName = this.environment + "-result-" + Guid.NewGuid() + ".csv";
 
             using (StreamWriter writer = File.CreateText(Path.Combine(@"C:\temp\responsemonitor\", fileName)))
             {
